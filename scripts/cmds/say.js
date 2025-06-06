@@ -46,7 +46,7 @@ module.exports = {
 
     } catch (e) {
       console.error("API Error:", e.response ? e.response.data : e.message);
-      message.reply("🐥 দুঃখিত, কিছু একটা সমস্যা হয়েছে!\n\nfix Author name\n" + (e.response?.data?.error || e.message));
+      message.reply("💣 দুঃখিত, কিছু একটা সমস্যা হয়েছে!\n\nfix Author name\n" + (e.response?.data?.error || e.message));
     }
   },
 };
